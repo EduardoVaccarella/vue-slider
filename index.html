@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0b45deb5df.js" crossorigin="anonymous"></script>
+    <title>Carousel</title>
+</head>
+<body>
+
+    <div id="root">   
+
+        <section>
+
+            <div class="container">
+
+                <div class="slide-wrapper">
+
+                    <div class="slide">
+                        <img src="img/01.jpg" alt="">
+                        <h4 class="titolo-img">
+
+                        </h4>
+                        <p class="sottotitolo-img">
+
+                        </p>
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/02.jpg" alt="">
+                        <h4 class="titolo-img">
+
+                        </h4>
+                        <p class="sottotitolo-img">
+
+                        </p>
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/03.jpg" alt="">
+                        <h4 class="titolo-img">
+
+                        </h4>
+                        <p class="sottotitolo-img">
+
+                        </p>
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/04.jpg" alt="">
+                        <h4 class="titolo-img">
+
+                        </h4>
+                        <p class="sottotitolo-img">
+
+                        </p>
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/05.jpg" alt="">
+                        <h4 class="titolo-img">
+
+                        </h4>
+                        <p class="sottotitolo-img">
+
+                        </p>
+                    </div>
+                    
+                </div>
+
+                <div class="slide-preview-wrapper">
+
+                    <div class="upArr" @click="btnUp">
+                        <span id="upArr">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </span>
+                    </div>
+
+                    <div class="slide-preview selected">
+                        <img src="img/01.jpg" alt="">
+                    </div>
+        
+                    <div class="slide-preview">
+                        <img src="img/02.jpg" alt="">
+                    </div>
+        
+                    <div class="slide-preview">
+                        <img src="img/03.jpg" alt="">
+                    </div>
+        
+                    <div class="slide-preview">
+                        <img src="img/04.jpg" alt="">
+                    </div>
+        
+                    <div class="slide-preview">
+                        <img src="img/05.jpg" alt="">
+                    </div>
+
+                    <div class="doArr" @click="btnDo">
+                        <span id="doArr">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </span>
+                    </div>
+
+        
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+    <script src="myscript.js"></script>
+    
+    
+</body>
+</html>
